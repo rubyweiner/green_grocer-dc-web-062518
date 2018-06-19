@@ -23,6 +23,7 @@ coupons.each do |each_coupon|
       end
       cart[name][:count] -= each_coupon[:num]
     end
+  end
 end
 
 def apply_clearance(cart)
